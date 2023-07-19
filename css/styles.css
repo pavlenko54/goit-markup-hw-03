@@ -17,16 +17,18 @@ ul{
 img{
     display: block;
 }
+
+/* a{    margin: 0;
+    padding: 0;
+
+} */
 .container{
 width: 1230px;
 padding-left: 15px;
 padding-right: 15px;
-/* margin-left: auto;
-margin-right: auto; */
 margin: 0 auto;
 
 
-/* outline: 1px solid red; */
 }
 .section{
 padding-bottom: 94px;
@@ -327,6 +329,11 @@ letter-spacing: 0.48px;
 
     color: var(--secondary-text-color);
 
+    font-family: 'Raleway', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.23;
+    letter-spacing: 0.78px;
 }
 
 .contacts-footer{
@@ -352,22 +359,20 @@ letter-spacing: 0.28px;}
 /* ------------------portfolio-section----------------------- */
 .portfolio-section{
 
-    background-color: teal;
+    background-color: yellowgreen;
 
 }
-.projects-list{
-    
-    margin-right: 215px;
-    margin-left: 215px;
-    list-style: none;
-    text-decoration: none;
 
-}
 .portfolio-list{
+
+    margin-bottom: 50px;
+    justify-content: center;
     outline: solid 1px red;
     display: flex;
     list-style: none;
 }
+
+.portfolio-list .portfolio-list-item + .portfolio-list-item{margin-left: 30px;}
 
 .portfolio-list-btn{
     
@@ -391,11 +396,35 @@ font-weight: 500;
 line-height: 1.62;
 letter-spacing: 0.48px;
 }
+.projects-list{
+    margin-top: -30px;
+    margin-left: -30px;
+
+    flex-basis: calc(100% / 3);
+    flex-wrap: wrap;
+    display: flex;
+    outline: solid 1px blue;
+
+    
+    list-style: none;
+    text-decoration: none;
+
+}
+.projects-list{
+
+
+}
+.projects-card{
+    margin-top: 30px;
+    margin-left: 30px;
+    outline: solid 1px blue;
+
+}
 .projects-list-link{
     text-decoration: none;
 }
 .projects-list-title{
-
+margin-top: 20px;
     color: var(--basic-text-color);
 
 font-size: 18px;
@@ -405,9 +434,11 @@ letter-spacing: 1.08px;
 }
 .projects-list-text{
 
+
     color: var(--paragraph-text-color);
 
 font-size: 16px;
 line-height: 1.87;
 letter-spacing: 0.48px;
 }
+/* ------------------------------------------------------------- */
