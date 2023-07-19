@@ -373,8 +373,15 @@ letter-spacing: 0.28px;}
 
 .portfolio-list .portfolio-list-item + .portfolio-list-item{margin-left: 30px;}
 
+.portfolio-list-item{
+
+}
+
 .portfolio-list-btn{
-    
+    color: #F5F4FA;
+    border: 0;
+    border-radius: 4px ;
+
     color: var(--basic-text-color);
 
     text-align: center;
@@ -426,8 +433,17 @@ border-bottom: 1px solid #EEE;
 .projects-list-link{
     text-decoration: none;
 }
+
+.card-text{
+    padding-left: 24px;
+    padding-right: 24px;
+padding-bottom: 20px; 
+padding-top: 20px;
+}
+
 .projects-list-title{
-margin-top: 20px;
+
+/* margin-top: 20px; */
     color: var(--basic-text-color);
 
 font-size: 18px;
@@ -437,6 +453,7 @@ letter-spacing: 1.08px;
 }
 .projects-list-text{
 
+    /* margin-bottom: 20px; */
 
     color: var(--paragraph-text-color);
 
